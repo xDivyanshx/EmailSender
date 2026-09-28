@@ -1,0 +1,167 @@
+###############
+# Build Artifacts
+###############
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+###############
+# User-specific files
+###############
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ide
+*.jfm
+
+###############
+# Visual Studio
+###############
+.vs/
+.vscode/
+*.dbmdl
+*.psess
+*.vsp
+*.vspscc
+*_i.c
+*_p.c
+*_h.h
+*.tlog
+*.vspscc
+
+###############
+# JetBrains Rider
+###############
+.idea/
+*.DotSettings.user
+
+###############
+# macOS files
+###############
+.DS_Store
+.AppleDouble
+.LSOverride
+
+###############
+# Windows files
+###############
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+###############
+# Package Managers
+###############
+packages/
+.nuget/
+*.nupkg
+.project.lock.json
+project.lock.json
+
+###############
+# Logs / Temp files
+###############
+.build-temp/
+.test-temp/
+*.log
+*.tmp
+*.temp
+*.bak
+
+###############
+# Publish Artifacts
+###############
+publish/
+dist/
+artifacts/
+
+###############
+# Environment / Secrets
+###############
+appsettings.Development.json
+secrets.json
+*.secret.json
+.env
+*.env
+
+###############
+# Resharper
+###############
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+###############
+# ASP.NET Data
+###############
+App_Data/
+
+###############
+# System files
+###############
+*.swp
+*.swo
+
+###############
+# OS generated files
+###############
+Icon?
+ehthumbs.db
+Thumbs.db
+
+###############
+# Backup files
+###############
+*.bak
+*.old
+*.orig
+*.tmp
+
+###############
+# Rider / IntelliJ
+###############
+.idea/
+*.iml
+
+###############
+# Others
+###############
+# Ignore PublishProfiles (optional)
+Properties/PublishProfiles/
+
+# Ignore local tooling
+local.settings.json
+
+# The resources/ directory is the app's runtime DATA directory: per-company
+# email templates, recipient CSVs, resume attachments and OAuth state. It is
+# not code, so it is not versioned here. It lives in its own separate private
+# repository instead.
+#
+# The app still needs it on disk at this path — removing this line from
+# .gitignore does NOT restore the files. See appsettings.exmaple.json for the
+# layout the app expects.
+resources/
+*google-oauth-client*.json
+*google-token*.json
+EmailSender/appsettings.json
+**/appsettings.json
+**/client_secret*.json
+**/credentials*.json
+**/*oauth*.json
+**/*token*.json
+
+# Local dev screenshots. This one captures the running app and therefore shows
+# campaign names, the connected Gmail address and attachment filenames — job
+# search detail, not code. Kept out of the index deliberately.
+Screenshot*.png
+screenshot*.png
